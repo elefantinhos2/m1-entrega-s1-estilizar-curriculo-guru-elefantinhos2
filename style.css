@@ -1,27 +1,147 @@
+
 .clear {
 	clear: both;
 }
 
+@font-face{
+    font-family: 'Lato';
+    src: url(https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap);
+}
+body{
+	font-family: 'Lato';
+}
 #headshot {
 	width: 12.5%;
 	float: left;
 	margin-right: 30px;
+	padding-bottom: 2px;
+}
+/*Imagem de Perfil*/
+#headshot > img{
+	border-radius: 100px;
+	height: 65%;
+	width:  90%;
+	/*border: 1px solid violet;*/
+	display: flex;
+    align-items: center;
+	/*margin: 10px 0px 0px 60px;*/
+	background-color: red;
+	margin-left: 3px;
 }
 
+/*.corLinha {
+	color: #ee9b00;
+	background-color: #ee9b00;
+	margin: 0px 10px 0px 10px;
+}*/
+/*Titulo do curriculo*/
 #name {
 	float: left;
+	/*padding: 0px 0px 0px 0px;*/
+	/*margin: 0px 0px 30px 0px;*/
+	/*border: 1px solid violet;*/
+	/*background-color:rgba(0, 0, 0, 0.178);*/
+	margin-left: -32px;
+	margin-top: -10px;
+}
+/*Nome do curriculo */
+#name > h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #444444;
+	margin: 20px 0px 0px 0px;
+	font-weight: 600;
+	padding: 0px 0px 0px 0px;
+	/*border: 1px solid blueviolet;
+	background-color:royalblue;*/
+
+}
+/*Informção sobre Profissão*/
+#name > h2 {
+	color: #444444;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	font-weight: 500;
+	/*border: 1px solid greenyellow;
+	background-color: turquoise;*/
 }
 
 #contactDetails {
+	color: #181818;
 	float: right;
+	list-style: none;
+	margin-right: 30px;
+}
+#contactDetails > ul {
+	list-style: none;
+}
+#contactDetails > ul > li{
+	margin-top: 5px;
+}
+
+a:hover {
 }
 
 .sectionTitle {
 	float: left;
+	/*width: 25%;*/
 	width: 25%;
+	/*margin-left: 100px;*/
+	margin-left: 17px;
+	color: #cf8a05;
 }
 
 .sectionContent {
 	float: right;
 	width: 72.5%;
+	/*float: right;
+    margin-top: -70px;*/
+}
+
+.keySkills{
+	list-style: none;
+	margin-left: -126px;
+}
+
+.keySkills > li{
+	/*display: inline-block;*/
+	/*float: none;*/
+	display: inline-block;
+    margin-left: 50px;
+    padding-left: 40px;
+    padding-right: 30px;
+    margin-right: -25px;
+}
+
+/*Titulo(Nome e Contatos)*/
+.mainDetails{
+	border-bottom: 2px solid #cf8a05;
+	margin: 10px 35px 0px 35px;
+}
+
+/*margem do curriculo*/
+#cv{
+	border: 2px solid #dedede;
+	/*margin: 90px 200px 90px 200px;
+	padding: 5%;*/
+	/*width: 2000px;*/
+    /*height: 2588px;*/
+	/*width: 777px;*/
+	/*height: 1335px;*/
+	width: 860px;
+	height: 1260px;
+	/*margin-left: 190px;*/
+	margin-left: 305px;
+	background-color: #f3f3f3;
+}
+section{
+	border-bottom: 1px solid gray;
+    margin: 0px 45px 0px 45px;
+}
+.last-line{
+	border: none;
+}
+hr{
+	margin-left: 50px;
+	margin-right: 50px;
 }
