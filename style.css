@@ -1,9 +1,12 @@
 @font-face{
-    font-family: 'Lato' sans-serif;
+    font-family: 'Lato', sans-serif;
     src: url(https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,100;1,300&display=swap);
 }
+html{
+	font-family: 'Lato', sans-serif;
+}
 body{
-	font-family: 'Lato' sans-serif;
+	font-family: 'Lato', sans-serif;
 	background-color: #f3f3f3;
 }
 /*h1, h2{
@@ -75,7 +78,7 @@ body{
 }
 
 section{
-	border-bottom: 1px solid gray;
+	border-bottom: 1px solid #dedede;
 	margin-left: 40px;
     margin-right: 40px;
 } 
@@ -87,7 +90,7 @@ section{
 .sectionTitle {
 	float: left;
 	width: 25%;
-	color: #cf8a05;
+	color: #444444;
 	font-family: Arial, sans-serif;
 }
 
@@ -98,17 +101,25 @@ section{
 .sectionContent {
 	float: right;
 	width: 72.5%;
+	/*color: #444444;*/
 }
 
 .sectionContent > p{
 	font-family: Helvetica, sans-serif;
+	color: #181818;
 }
 
 .sectionContent > article > h2{
 	font-family: Helvetica, sans-serif;
+	color: #444444;
 }
 .sectionContent > article > p{
 	font-family: Helvetica, sans-serif;
+	color: #181818;
+}
+
+.subDetails{
+	color: #181818;
 }
 
 .keySkills{
