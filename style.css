@@ -3,18 +3,13 @@
     src: url(https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,100;1,300&display=swap);
 }
 html{
-	font-family: 'Lato', sans-serif;
+	font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 body{
-	font-family: 'Lato', sans-serif;
+	font-family: 'Lato', Arial, Helvetica, sans-serif;
 	background-color: #f3f3f3;
 }
-/*h1, h2{
-	font-family: Arial, Helvetica, sans-serif;
-}*/
-/*article{
-	border-bottom: 1px solid #dedede;
-}*/
+
 .clear {
 	clear: both;
 }
@@ -48,16 +43,19 @@ body{
 #name {
 	float: left;
 	margin-left: 0px;
+	font-family:Arial, sans-serif;
 }
 
 #name > h1{
 	color: #444444;
 	font-weight: 900;
+	margin-bottom: 5px;
 }
 
 #name > h2{
 	color: #444444;
 	font-weight: 600;
+	margin-top: 8px;
 }
 
 #contactDetails {
@@ -95,17 +93,19 @@ section{
 }
 
 .sectionTitle > h1{
+	font-family: Arial,  sans-serif;
 
 }
 
 .sectionContent {
 	float: right;
 	width: 72.5%;
-	/*color: #444444;*/
+	display: flex;
+	flex-wrap: wrap;
 }
 
 .sectionContent > p{
-	font-family: Helvetica, sans-serif;
+	font-family: 'Lato', Arial, Helvetica, sans-serif;
 	color: #181818;
 }
 
@@ -114,7 +114,7 @@ section{
 	color: #444444;
 }
 .sectionContent > article > p{
-	font-family: Helvetica, sans-serif;
+	font-family: 'Lato', Arial, Helvetica, sans-serif;
 	color: #181818;
 }
 
@@ -124,13 +124,15 @@ section{
 
 .keySkills{
 	list-style: none;
-    margin-left: -133px;
+	color: #181818;
+	padding-left: 0px;
 }
 
 .keySkills > li{
 	display: inline-block;
-    margin-left: 50px;
-    padding-left: 40px;
-    padding-right: 30px;
+    margin-left: 0px;
+    padding-left: 0px;
+    padding-right:0px;
     margin-right: 0px;
+	width: 31%;
 }
